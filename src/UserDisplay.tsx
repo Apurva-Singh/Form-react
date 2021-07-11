@@ -10,7 +10,7 @@ interface Props{
 const UserDisplay: React.FC<Props>=({email,gender, name})=>{
 
     return(
-        <div className="flex flex-col max-w-md even:bg-gray-50 mt-6 hover:bg-blue-100 shadow-sm ">
+        <div className="flex flex-col max-w-xl  mt-6 hover:text-blue-300 shadow-sm hover:shadow-md ">
             
             <div className="flex flex-row justify-between ">
                 <p>{name}</p>
