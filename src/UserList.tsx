@@ -22,7 +22,7 @@ const UserList: React.FC<Props>=({ page ,title})=>{
   
   
     return(
-        <div className="items-center m-auto max-w-xl shadow-md p-4 ">
+        <div className="items-center m-auto max-w-sm md:max-w-xl shadow-md p-4 ">
         <h1 className="text-xl m-2"> Showing list of <span className="text-blue-300">{title}</span> users:</h1>
         
         <div className="h-0.5 max-w-sm bg-gray-200 mb-4"></div>
